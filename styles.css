@@ -48,7 +48,7 @@ header {
 
 .menu>li:hover {
     background-color: #1d3fa7;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .menu {
@@ -60,7 +60,8 @@ a {
     text-decoration: none;
     font-family: "Lora";
     font-size: 1.7em;
-    font-weight: 600;
+    font-weight: 200;
+    color: blueviolet;
 }
 
 table {
