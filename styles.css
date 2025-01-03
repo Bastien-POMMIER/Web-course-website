@@ -78,6 +78,35 @@ img {
     padding: 4px;
 }
 
+table.tabFerme {
+  border: 0px solid #FFFFFF;
+}
+
+table.tabFerme td, table.tabFerme th {
+  border: 0px solid #AAAAAA;
+}
+
+table.tabFerme tbody td {
+  font-size: 20px;
+}
+
+table.tabFerme td:nth-child(even) {
+  background: #FFFFFF;
+}
+
+table.tabFerme tfoot {
+  font-size: 10px;
+  font-weight: bold;
+  background: #FFFFFF;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+}
+
+table.tabFerme tfoot td {
+  font-size: 10px;
+}
+
 .content {
     margin: 60px 120px;
     border-radius: 25px;
