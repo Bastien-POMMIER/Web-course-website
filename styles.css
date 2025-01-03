@@ -44,10 +44,7 @@ table.tabFerme {
     border: 0px solid #AAAAAA;
   }
   table.tabFerme tbody td {
-    font-size: 10px;
-  }
-  table.tabFerme tr:nth-child(even) {
-    background: #FFFFFF;
+    font-size: 20px;
   }
   table.tabFerme td:nth-child(even) {
     background: #FFFFFF;
@@ -84,6 +81,3 @@ td, th {
     padding: 3px 5px;
 }
 
-th {
-    
-}
