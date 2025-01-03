@@ -6,6 +6,30 @@
     margin: 0px;
 }
 
+.history {
+    background-image: url(Images/port-st-cyr.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.parc {
+    background-image: url(Images/passerelle.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.shop {
+    background-image: url(Images/ain.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
 header {
     background-color: white;
     background-size: 100%;
@@ -40,6 +64,16 @@ a {
     color: white;
 }
 
+table {
+    border: 1px, solid, black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px, solid, black;
+    padding: 3px 5px;
+}
+
 img {
     padding: 4px;
 }
@@ -59,8 +93,4 @@ img {
 footer {
     background-color: rgb(215, 215, 215);
     padding: 20px;
-}
-
-td, th {
-    padding: 3px 5px;
 }
