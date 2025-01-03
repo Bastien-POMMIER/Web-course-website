@@ -1,5 +1,29 @@
 .home {
-    background-image: url(Images/Paysage-st-cyr-sur-menthon-2127777352.png);
+    background-image: url(Images/paysage-st-cyr.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.history {
+    background-image: url(Images/port-st-cyr.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.parc {
+    background-image: url(Images/passerelle.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.shop {
+    background-image: url(Images/ain.png);
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -15,9 +39,16 @@ header {
 }
 
 .menu>li {
+    background-color: #335edc;
+    border-radius: 35px;
     padding: 15px 25px;
     margin: 0px 30px;
     display: inline-block;
+}
+
+.menu>li:hover {
+    background-color: #1d3fa7;
+    transition-duration: 0.4s;
 }
 
 .menu {
@@ -30,7 +61,17 @@ a {
     font-family: "Lora";
     font-size: 1.7em;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: white;
+}
+
+table {
+    border: 1px, solid, black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px, solid, black;
+    padding: 3px 5px;
 }
 
 img {
@@ -38,28 +79,34 @@ img {
 }
 
 table.tabFerme {
-    border: 0px solid #FFFFFF;
-  }
-  table.tabFerme td, table.tabFerme th {
-    border: 0px solid #AAAAAA;
-  }
-  table.tabFerme tbody td {
-    font-size: 20px;
-  }
-  table.tabFerme td:nth-child(even) {
-    background: #FFFFFF;
-  }
-  table.tabFerme tfoot {
-    font-size: 10px;
-    font-weight: bold;
-    background: #FFFFFF;
-    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-  }
-  table.tabFerme tfoot td {
-    font-size: 10px;
-  }
+  border: 0px solid #FFFFFF;
+}
+
+table.tabFerme td, table.tabFerme th {
+  border: 0px solid #AAAAAA;
+}
+
+table.tabFerme tbody td {
+  font-size: 20px;
+}
+
+table.tabFerme td:nth-child(even) {
+  background: #FFFFFF;
+}
+
+table.tabFerme tfoot {
+  font-size: 10px;
+  font-weight: bold;
+  background: #FFFFFF;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+}
+
+table.tabFerme tfoot td {
+  font-size: 10px;
+}
+
 .content {
     margin: 60px 120px;
     border-radius: 25px;
@@ -76,8 +123,3 @@ footer {
     background-color: rgb(215, 215, 215);
     padding: 20px;
 }
-
-td, th {
-    padding: 3px 5px;
-}
-
