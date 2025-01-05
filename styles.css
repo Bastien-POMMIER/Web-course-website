@@ -64,18 +64,15 @@ a {
     color: white;
 }
 
-table {
-    border: 1px, solid, black;
-    border-collapse: collapse;
-}
-
 td, th {
     border: 1px, solid, black;
     padding: 3px 5px;
 }
 
-img {
+img, table {
     padding: 4px;
+    display: inline-block;
+    border-collapse: collapse;
 }
 
 table.tabFerme {
