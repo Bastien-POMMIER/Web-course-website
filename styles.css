@@ -63,11 +63,6 @@ a {
     font-weight: 200;
 }
 
-table {
-    border: 1px, solid, black;
-    border-collapse: collapse;
-}
-
 td, th {
     border: 1px, solid, black;
     padding: 3px 5px;
@@ -76,35 +71,21 @@ td, th {
 img, table {
     padding: 4px;
     display: inline-block;
+    border: 1px, solid, black;
+    border-collapse: collapse;
 }
 
-table.tabFerme {
-  border: 0px solid #FFFFFF;
+.tabFerme, .tabFerme td, .tabFerme th {
+  border: none;
 }
 
-table.tabFerme td, table.tabFerme th {
-  border: 0px solid #AAAAAA;
-}
-
-table.tabFerme tbody td {
+.tabFerme tbody td {
   font-size: 20px;
 }
 
-table.tabFerme td:nth-child(even) {
-  background: #FFFFFF;
-}
-
-table.tabFerme tfoot {
+.tabFerme tfoot {
   font-size: 10px;
   font-weight: bold;
-  background: #FFFFFF;
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
-}
-
-table.tabFerme tfoot td {
-  font-size: 10px;
   color: darkblue;
 }
 
