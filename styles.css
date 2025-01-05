@@ -4,6 +4,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0px;
+    color: black;
 }
 
 .history {
@@ -36,6 +37,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: darkblue;
 }
 
 .menu>li {
@@ -48,7 +50,7 @@ header {
 
 .menu>li:hover {
     background-color: #1d3fa7;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .menu {
@@ -60,8 +62,8 @@ a {
     text-decoration: none;
     font-family: "Lora";
     font-size: 1.7em;
-    font-weight: 600;
-    color: white;
+    font-weight: 200;
+    color: black;
 }
 
 td, th {
