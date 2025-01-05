@@ -63,7 +63,6 @@ a {
     font-family: "Lora";
     font-size: 1.7em;
     font-weight: 200;
-    color: black;
 }
 
 table {
@@ -107,6 +106,7 @@ table.tabFerme tfoot {
 
 table.tabFerme tfoot td {
   font-size: 10px;
+  color: darkblue;
 }
 
 .content {
