@@ -60,8 +60,12 @@ a {
     text-decoration: none;
     font-family: "Lora";
     font-size: 1.7em;
-    font-weight: 600;
-    color: white;
+    font-weight: 200;
+}
+
+table {
+    border: 1px, solid, black;
+    border-collapse: collapse;
 }
 
 td, th {
@@ -101,6 +105,7 @@ table.tabFerme tfoot {
 
 table.tabFerme tfoot td {
   font-size: 10px;
+  color: darkblue;
 }
 
 .content {
